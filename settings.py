@@ -26,8 +26,8 @@ CLIENT_SECRET = os.environ.get('OSF_OAUTH_CLIENT_SECRET',
 
 
 # Server URLs (from the API documentation)
-AUTH_BASE_URL = 'https://test-accounts.osf.io/login/oauth2/authorize'
-TOKEN_REQUEST_URL = 'https://test-accounts.osf.io/login/oauth2/token'
+AUTH_BASE_URL = 'https://test-accounts.osf.io/oauth2/authorize'
+TOKEN_REQUEST_URL = 'https://test-accounts.osf.io/oauth2/token'
 TOKEN_REFRESH_URL = TOKEN_REQUEST_URL
 
 # If in debug mode, allow oauth client to work without using and/or checking HTTPS
